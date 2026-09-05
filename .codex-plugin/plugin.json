@@ -1,0 +1,22 @@
+{
+  "name": "codex-seo",
+  "version": "0.0.1",
+  "description": "A native Codex plugin for evidence-backed SEO workflows.",
+  "author": {
+    "name": "Shivansh Sen",
+    "url": "https://github.com/shivanshsen7"
+  },
+  "homepage": "https://github.com/shivanshsen7/codex-seo",
+  "repository": "https://github.com/shivanshsen7/codex-seo",
+  "keywords": ["codex", "seo", "site-audit"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex SEO",
+    "shortDescription": "Evidence-backed SEO workflows for Codex.",
+    "longDescription": "Codex SEO is a native plugin for building evidence-backed SEO workflows.",
+    "developerName": "Shivansh Sen",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Help me plan an evidence-backed SEO audit."
+  }
+}
