@@ -1,3 +1,4 @@
 # Vitest relies on esbuild's postinstall to install its platform-specific binary.
 allowBuilds:
+  '@scarf/scarf': true
   esbuild: true
