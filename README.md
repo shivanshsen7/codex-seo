@@ -20,6 +20,22 @@ clear contracts for data, provenance, warnings, and failures.
 - A documented, intentional path for porting legacy capabilities—without
   copying their scripts wholesale.
 
+## Install
+
+Codex SEO is not yet published in a Codex plugin marketplace and does not ship
+an end-user command surface. To work with the current foundation, clone the
+repository and use the local development setup below:
+
+```bash
+git clone https://github.com/shivanshsen7/codex-seo.git
+cd codex-seo
+```
+
+> [!IMPORTANT]
+> A marketplace installation command will be added when the plugin has a
+> supported, usable release. Until then, the repository is for development and
+> evaluation only.
+
 ## Direction
 
 New plugin-facing work is written in TypeScript on Node.js. Python currently
