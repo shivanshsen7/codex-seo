@@ -1,4 +1,5 @@
 .serena/
+.worktrees/
 .venv/
 __pycache__/
 .pytest_cache/
