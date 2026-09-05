@@ -27,7 +27,7 @@ jobs:
           node-version-file: .node-version
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
       - run: pnpm install --frozen-lockfile
       - run: pnpm docs:build
       - uses: actions/upload-pages-artifact@v3
