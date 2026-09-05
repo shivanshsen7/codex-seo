@@ -1,0 +1,23 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.5.12/schema.json",
+  "files": {
+    "includes": [
+      ".codex-plugin/plugin.json",
+      "biome.json",
+      "package.json",
+      "src/**/*.ts",
+      "test/**/*.ts",
+      "tsconfig.json"
+    ]
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "preset": "recommended"
+    }
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space"
+  }
+}

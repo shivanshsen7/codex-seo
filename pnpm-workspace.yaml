@@ -1,0 +1,3 @@
+# Vitest relies on esbuild's postinstall to install its platform-specific binary.
+allowBuilds:
+  esbuild: true
