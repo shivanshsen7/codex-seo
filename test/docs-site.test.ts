@@ -11,9 +11,7 @@ describe("published documentation baseline", () => {
 
     expect(config).toContain('root: "site"');
     expect(config).toContain('base: "/codex-seo"');
-    expect(config).toContain(
-      'site: "https://shivanshsen7.github.io/codex-seo"',
-    );
+    expect(config).toContain('site: "https://shivanshsen7.github.io"');
   });
 
   it("does not claim that skills, installation, or usage are available", async () => {

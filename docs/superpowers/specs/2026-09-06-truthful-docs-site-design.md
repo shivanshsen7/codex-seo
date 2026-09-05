@@ -44,8 +44,9 @@ and AI-readable indexes come from Blume's static build.
 
 - Add Blume as the documentation build dependency and scripts for local preview
   and static production build.
-- Add `blume.config.ts` with title, description, project-site base
-  `/codex-seo`, and canonical GitHub Pages URL
+- Add `blume.config.ts` with title, description, GitHub Pages origin
+  `https://shivanshsen7.github.io`, and project-site base `/codex-seo`; Blume
+  combines these into the canonical URL
   `https://shivanshsen7.github.io/codex-seo`.
 - Add Markdown content pages in a dedicated documentation directory. Each page
   is sourced from the repository's manifest, README, and evidence contract.

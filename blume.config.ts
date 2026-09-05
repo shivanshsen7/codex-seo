@@ -10,6 +10,6 @@ export default defineConfig({
   deployment: {
     output: "static",
     base: "/codex-seo",
-    site: "https://shivanshsen7.github.io/codex-seo",
+    site: "https://shivanshsen7.github.io",
   },
 });

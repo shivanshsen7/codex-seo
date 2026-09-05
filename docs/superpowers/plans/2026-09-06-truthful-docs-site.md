@@ -13,7 +13,9 @@
 ## Global Constraints
 
 - Publish a static GitHub Pages project site under `/codex-seo/`.
-- Use `https://shivanshsen7.github.io/codex-seo` as the canonical site URL.
+- Use `https://shivanshsen7.github.io` as the Blume deployment origin and
+  `/codex-seo` as its base path, producing the canonical site URL
+  `https://shivanshsen7.github.io/codex-seo`.
 - Document only the `0.0.1` manifest, evidence-envelope contract, and development-quality foundation.
 - State that no end-user skills, commands, or installation path are available; do not create speculative commands or examples.
 - Do not implement an SEO skill, installer, command, package publication, binary, release asset, runtime service, analytics, form, or credential flow.
@@ -132,7 +134,7 @@ export default defineConfig({
   deployment: {
     output: "static",
     base: "/codex-seo",
-    site: "https://shivanshsen7.github.io/codex-seo",
+    site: "https://shivanshsen7.github.io",
   },
 });
 ```
